@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import math
 import numpy as np
 
-#a
 # single game
 def w():
     toss=random.randint(1,2)

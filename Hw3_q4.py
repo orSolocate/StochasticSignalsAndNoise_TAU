@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use('TkAgg')
+#matplotlib.use('TkAgg')
 
 lambda_exp=0.1
 L=5
@@ -22,7 +22,7 @@ for m in range (0,M):
             W[i] = min(W[i], X[i + l])
     avg.append(np.sqrt(N/L)*((L/N)*np.sum(W[1:int(N/L)])-np.average(W[1])))
 
-matplotlib.use('TkAgg')
+#matplotlib.use('TkAgg')
 plt.plot(W)
 plt.title("Wi=min{Xi+1,...,Xi+L}")
 plt.xlabel("i")

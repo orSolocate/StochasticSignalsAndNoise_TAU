@@ -28,8 +28,6 @@ while(True):
                 number_of_2k_in_results=number_of_2k_in_results+1;
             p.append(number_of_2k_in_results/len(results))
 
-    p
-
 
 
 

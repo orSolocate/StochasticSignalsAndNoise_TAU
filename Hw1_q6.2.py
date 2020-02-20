@@ -6,5 +6,3 @@ print(sp.mean(sol1))
 
 sol2 = [len(x) + 1 for x in "".join(map(str, fair_die)).split('6') if set.issubset(set(x), set('24'))]
 print(sp.mean(sol2))
-
-a=5
